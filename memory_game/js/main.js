@@ -54,5 +54,13 @@ var createBoard = function(){
 	}
 };
 
-createBoard();
 
+var resetBoard = function(){
+	window.location.reload();
+	
+
+};
+document.getElementById('reset').addEventListener('click',resetBoard);
+
+
+createBoard();
